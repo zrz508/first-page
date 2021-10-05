@@ -1,0 +1,151 @@
+.special-news {
+    margin-top: 16px;
+}
+
+.news__bottom {
+    width: 588px;
+    float: left;
+}
+
+.article-bottom {
+    position: relative;
+    background-color: #448ccb;
+
+}
+
+.news__bottom-img {
+    position: absolute;
+}
+
+.text-bigNews-bottom {
+    position: relative;
+
+
+    min-height: 393px;
+    max-height: 393px;
+    color: #fff;
+    padding: 62px 60px 28px 20px;
+}
+
+.news__bottom-h2 {
+    font-size: 20px;
+
+    background-color: #fff;
+
+    float: right;
+
+    padding: 28px 20px 24px 20px;
+
+    width: 411px;
+}
+
+.news__bottom-h3 {
+    font-size: 30px;
+
+    margin-top: 20px;
+
+    line-height: 33px;
+    width: 400px;
+}
+
+.category__bottom {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 40px;
+    opacity: 60%;
+}
+
+.category__bottom::before {
+    position: relative;
+    content: "/";
+    opacity: 60%;
+}
+
+.text__news-bottom {
+    margin-top: 20px;
+    opacity: 60%;
+
+    font-size: 14px;
+}
+
+.props__bignews-bottom {
+    font-size: 12px;
+
+    margin-top: 12px;
+}
+
+
+
+
+.news__bottom-right {
+    float: right;
+    width: 412px;
+    display: inline-block;
+}
+
+.list__hot-news {
+    display: inline-block;
+    float: left;
+}
+
+.hot {
+    background-color: #fff;
+
+    margin-top: 4px;
+    padding: 9px 16px 8px 20px;
+}
+
+
+
+.hot__news-h3 {
+    font-size: 16px;
+
+    margin-top: 15px;
+}
+
+.hot__news:nth-child(2) {
+    margin-top: 30px;
+}
+
+.hot__news:nth-child(3) {
+    margin-top: 30px;
+}
+
+.news__bottom-small-props {
+    margin-top: 13px;
+
+    width: 225px;
+    /* ширина задана для примера */
+}
+
+.news__bottom-small-props {
+    color: #91919f;
+
+    font-size: 12px;
+
+    float: left;
+}
+
+.news__bottom-small-props {
+    font-size: 12px;
+
+    padding-right: 61px;
+
+    float: right;
+}
+
+.date {
+    display: inline-block;
+    opacity: 60%;
+}
+
+.time-bottom-icon {
+    background-image: url("../img/clock-2.png");
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+
+    display: inline-block;
+
+    margin-left: 14px;
+    padding-left: 15px;
+}

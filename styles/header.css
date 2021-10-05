@@ -1,0 +1,171 @@
+.blue-bar {
+    background-color: #00122f;
+
+    color: #fff;
+
+    padding: 17px 0 18px 0;
+
+}
+
+.blue-bar-h1 {
+    font-size: 16px;
+    font-weight: normal;
+
+    float: left;
+}
+
+.blue-bar-text {
+    text-decoration: underline;
+}
+
+.time-header {
+    float: right;
+
+    display: inline-block;
+}
+
+.header__box {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.header__box-logo {
+    float: left;
+}
+
+.select-wrapper {
+    font-size: 0;
+
+    position: relative;
+
+    margin: 10px 0 0 60px;
+    float: left;
+
+    display: inline-block;
+    /* обнуляем шрифт, чтобы убрать текст label */
+
+}
+
+.select-wrapper::after {
+    border-bottom: 2px dashed #448ccb;
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 15px;
+    height: 1px;
+}
+
+.custom-select {
+    color: #448ccb;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Восстанавливаем шрифт */
+    font-size: 16px;
+
+    /* для того, чтобы задать саму стрелку:
+      1. отведем для нее место; */
+    padding-right: 15px;
+    /* добавим ее фоном */
+    background: url("../img/down-arrow.png") 100% center no-repeat;
+    background-size: 9px 5px;
+}
+
+
+.header__box-time {
+    color: #91919f;
+
+    margin-top: 15px;
+    margin-left: 30px;
+
+    float: left;
+}
+
+.time-icon {
+    background-image: url("../img/clock3.png");
+    background-repeat: no-repeat;
+
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+.header__box-weather {
+    background-image: url("../img/weather.png");
+    background-repeat: no-repeat;
+    background-position-y: -3px;
+
+    color: #91919f;
+
+    margin-top: 12px;
+    margin-left: 50px;
+    padding-left: 40px;
+
+    float: left;
+}
+
+.search {
+    margin-left: 40px;
+    position: relative;
+
+    width: 321px;
+    height: 45px;
+
+    display: inline-block;
+
+    float: left;
+}
+
+.search-input {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    border: none;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 13px;
+
+    padding-left: 22px;
+    padding-right: 45px;
+}
+
+.search-button {
+    background-image: url("../img/search.png");
+    background-color: transparent;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+    cursor: pointer;
+
+    position: absolute;
+
+    top: 46%;
+    transform: translateY(-50%);
+    right: 15px;
+
+    width: 22px;
+    height: 40px;
+}
+
+.navigation__text::after {
+    position: relative;
+    content: "/";
+    color: #c1c0c0f3;
+    left: 18px;
+}
+
+.navigation__text {
+
+    float: left;
+
+    margin-top: 14px;
+    margin-right: 34px;
+}
+
+.navigation__text:last-child:after {
+    content: none;
+}

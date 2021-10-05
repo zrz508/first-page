@@ -1,0 +1,178 @@
+.footer {
+    background-color: #00122f;
+
+    margin-top: 58px;
+    padding-top: 56px;
+
+    min-height: 230px;
+
+    position: relative;
+}
+
+.footer-container {
+    margin-bottom: 47px;
+}
+
+.bottom-colum-left {
+    columns: 2;
+
+    float: left;
+
+    display: inline-block;
+    width: 260px;
+}
+
+
+.bottom-colum-left-list:nth-child(5) {
+    margin-bottom: 0;
+}
+
+.bottom-colum-left-list {
+    color: #fff;
+    margin-bottom: 12px;
+    opacity: 80%;
+}
+
+
+.bottom-colum-right {
+    width: 260px;
+
+    display: inline-block;
+}
+
+.bottom-colum-right-list {
+    font-size: 16px;
+
+    color: #fff;
+    text-decoration: none;
+
+    opacity: 80%;
+}
+
+.bottom-colum-right-centr {
+    margin-left: 176px;
+    margin-top: 66px;
+
+    display: inline-block;
+}
+
+.bottom-colum-right-centr-img {
+    position: absolute;
+    top: 19%;
+    left: 45.5%;
+}
+
+
+
+.bottom-colum-right-centr-list {
+    color: #fff;
+    opacity: 80%;
+    margin-bottom: 11px;
+}
+
+
+.social-web {
+
+    display: inline-block;
+
+    margin-left: 168px;
+
+    position: absolute;
+}
+
+.social-web-list {
+    float: left;
+    margin-right: 17px;
+}
+
+
+
+
+
+.social-web-list:last-child {
+    margin-right: 0;
+}
+
+.logo-all {
+    display: inline-block;
+
+    width: 44px;
+    height: 42px;
+}
+
+
+
+.logo-1 {
+    background-image: url("../img/vk-logo.png");
+    background-repeat: no-repeat;
+
+}
+
+.logo-2 {
+    background-image: url("../img/facebook-logo.png");
+    background-repeat: no-repeat;
+
+}
+
+.logo-3 {
+    background-image: url("../img/twitter-logo.png");
+    background-repeat: no-repeat;
+
+}
+
+.logo-4 {
+    background-image: url("../img/instagram-logo.png");
+    background-repeat: no-repeat;
+
+
+}
+
+.footer-address {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 168px;
+
+    display: inline-block;
+}
+
+.communication-list {
+    margin-bottom: 22px;
+    font-style: normal;
+}
+
+.communication-list:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.icon {
+    padding-left: 34px;
+}
+
+.tell-icon {
+    background-image: url("../img/call-answer.png");
+    background-repeat: no-repeat;
+
+}
+
+.mail-icon {
+    background-image: url("../img/convert.png");
+    background-repeat: no-repeat;
+
+    background-position: 3px 6px;
+}
+
+
+
+.footer-bottom {
+    color: #727882;
+    background: #00122f;
+    border-top: solid 1px #26354e;
+
+    font-size: 14px;
+    text-align: center;
+
+
+    margin: 0 auto;
+
+    padding: 12px 50px 16px 50px;
+}
